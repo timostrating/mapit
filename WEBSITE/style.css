@@ -1,0 +1,140 @@
+
+h2 {
+    color: #555;
+}
+p {
+    color: #777;
+}
+.special h2 {
+    color: white;
+}
+.special p {
+    color: white;
+}
+
+input[type="email"]{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: solid 2px #bae1f2;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    color: #555;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    color: white;
+    background: #1a62aa;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+input {
+    margin: 10px;
+}
+input:focus {
+    outline: none;
+}
+
+.le_bucket {
+    margin: 20px 0 0 0;
+}
+
+#nav_saviour {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 72px;
+    background: rgba(45, 170, 226, 0.65);
+    box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.34);
+}
+nav {
+    position: fixed !important;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: 1;
+}
+nav > div {
+    display: inherit;
+    width: 1200px;
+    margin: auto;
+}
+nav .navbar-nav a {
+    padding: 15px;
+}
+.special {
+    background: #2daae2;
+    padding: 1px;
+    text-align: center;
+    margin: 80px 0 40px;
+}
+.row {
+    margin: 50px 0;
+}
+div.d-block {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-inner h1 {
+    text-align: center;
+    margin: 43vh auto;
+    color: white;
+    font-size: 4rem;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+.vert-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.phone {
+    padding: 20px 0;
+    position: relative;
+    transform: scale(0.6) rotateZ(3deg) translateY(-70px);
+    height: 360px;
+    z-index: -1;
+}
+#bezel {
+    background:#222;
+    padding:8px;
+    border-radius:8px;
+    max-width:240px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 2px 2px 21px -2px rgba(0, 0, 0, 0.64);
+}
+#top {
+    height:10px;
+    margin-bottom:6px;
+    color:#FFF;
+    /*background:url('http://i.imgur.com/QtK55Mo.png') no-repeat center center;*/
+    text-transform:bold;
+    text-align:center;
+    line-height:8px;
+}
+#screen {
+    background:url('img/ae8b57e5-7f0f-4183-92aa-2cc357d70f50.jpg');
+    background-size: 600%;
+    background-position: 30% 80%;
+    height:400px;
+    /*width:240px;*/
+}
+#buttons {
+    color:white;
+    text-align:center;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+#buttons span {
+    padding-left:8%;
+    padding-right:8%;
+}
+
